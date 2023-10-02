@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.event-heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 35px;
+    color: crimson;
+    text-transform: uppercase;
+}
+.bride-image-container {
+    display: flex;
+    flex-direction: row;
+}
+.image-container {
+    width: 100vw;
+    height: 250px;
+}

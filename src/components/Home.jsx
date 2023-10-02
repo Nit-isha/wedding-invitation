@@ -7,9 +7,9 @@ export default function Home() {
 
     return (
         <div className="home-background">
+            <img id='image' src='/front-background.png'/>
             <div className='home-container'>
-                <button className='home-button' onClick={() => navigate("/bride")}>Bride</button>
-                <button className='home-button' onClick={() => navigate("/groom")}>Groom</button>
+                <button className='home-button' onClick={() => navigate("/invitation")}>You're Invited</button>
             </div>
         </div>
     )

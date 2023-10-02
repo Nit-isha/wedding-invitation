@@ -1,7 +1,7 @@
-.home-background {
-    /* background-image: url('/8.png'); */
-    width: 100vw;
-    height: 100vh;
+.home-background #image{
+    width: 100%;
+    height: auto;
+    align-items: center;
 }
 
 .home-container {
@@ -12,22 +12,23 @@
     margin: auto;
     align-items: center;
     position: absolute;
-    top: 45%;
+    top: 85vh;
+    /* top: 0px; */
 }
 
 .home-button {
-    width: 200px;
+    width: 330px;
     padding: 15px;
     margin: 10px;
+    font-size: 20px;
     text-transform: uppercase;
     border-color: crimson;
     color: crimson;
     background-color: white;
-    
+    align-items: center;
 }
 .home-button:hover {
     border-color: crimson;
     color: white;
     background-color: crimson;
-
 }

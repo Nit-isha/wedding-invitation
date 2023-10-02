@@ -2,15 +2,18 @@
 
 .card-container {
     position: relative;
-    padding: 20px;
+    padding: 15px;
     margin: 5px;
-    width: 310px;
+    margin-top: 10px;
+    width: 89vw;
+    overflow-y: hidden;
+    border-radius: 10px;
     box-shadow: rgba(163, 76, 76, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .card-flower {
     position: absolute;
     right: -15px;
-    top: -15px;
+    top: -10px;
 }
 
 .card-name {
@@ -25,19 +28,19 @@
     text-transform: capitalize;
     margin-bottom: 2px;
     font-family: 'Comfortaa', cursive;
-    font-size: 15px;
+    font-size: 12px;
 }
 .card-time {
     text-transform: uppercase;
     margin-bottom: 2px;
     font-family: 'Comfortaa', cursive;
-    font-size: 15px;
+    font-size: 12px;
 }
 .card-venue {
     text-transform: capitalize;
     margin-bottom: 10px;
     font-family: 'Comfortaa', cursive;
-    font-size: 15px;
+    font-size: 12px;
 }
 .card-map {
     background-color: rgb(188, 47, 75);
@@ -46,11 +49,11 @@
     border-radius: 40px;
     border: none;
     font-family: 'Comfortaa', cursive;
-    font-size: 14px;
+    font-size: 12px;
 }
 .card-doll {
     position: absolute;
     right: 0px;
-    bottom: -6px;
+    bottom: -4px;
     height: 80px;
 }
