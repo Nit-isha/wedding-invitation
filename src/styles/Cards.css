@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@500;600&display=swap');
+
+.card-container {
+    position: relative;
+    padding: 20px;
+    margin: 5px;
+    width: 310px;
+    box-shadow: rgba(163, 76, 76, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card-flower {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+
+.card-name {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(125, 12, 35);
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+}
+.card-date {
+    text-transform: capitalize;
+    margin-bottom: 2px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+.card-time {
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+.card-venue {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+.card-map {
+    background-color: rgb(188, 47, 75);
+    color: white;
+    padding: 12px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
+.card-doll {
+    position: absolute;
+    right: 0px;
+    bottom: -6px;
+    height: 80px;
+}
