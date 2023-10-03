@@ -5,7 +5,7 @@ import "../styles/Content.css";
 export default function Content() {
   return (
     <div>
-        <div className="content-separation"><img src='/1-mehendi.png' /></div>
+        <div className="content-separation first-content"><img src='/1-mehendi.png' /></div>
         <img className='function-images' src='/mehendi.jpg' />
         <Cards name={"Mehendi"} date={"December 23 2023, Sunday"} time={"07:00 PM"} venue={"Ram Krishna ki Bagiya, Betul"}/>
 

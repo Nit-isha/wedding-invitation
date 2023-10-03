@@ -28,8 +28,10 @@ export default function Invite() {
   return (
     <div>
         <div className="image-container"><img src={images[index]} /></div>
-        
-        <div className="event-heading">Functions</div>
+        <div className="invite-content">
+          
+        </div>
+        <div className="heading-frame"><img src='/heading-frame-1.png'/></div>
         <Content />
     </div>
   )

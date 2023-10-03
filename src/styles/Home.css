@@ -1,6 +1,11 @@
+.home-background {
+    /* position: fixed; */
+    overflow-y: hidden;
+}
 .home-background #image{
     width: 100%;
     height: auto;
+    overflow-y: hidden;
     align-items: center;
 }
 
@@ -12,7 +17,7 @@
     margin: auto;
     align-items: center;
     position: absolute;
-    top: 85vh;
+    top: 65vh;
     /* top: 0px; */
 }
 
