@@ -26,10 +26,16 @@ export default function Invite() {
 
 
   return (
-    <div>
+    <div className='invite-container'>
         <div className="image-container"><img src={images[index]} /></div>
         <div className="invite-content">
-          
+          <div className="invite-content-heading">Vishal weds Garima</div>
+        </div>
+        <div className="invite-frame">
+        <div className="garima-image"><img src='/vishal-1.jpeg'/></div>
+        <div className="vishal-image-name">Vishal Gupta</div>
+        <div className="garima-image-name">Garima Chudiwale</div>
+        <div className="garima-image"><img src='/garima-1.jpeg'/></div>
         </div>
         <div className="heading-frame"><img src='/heading-frame-1.png'/></div>
         <Content />

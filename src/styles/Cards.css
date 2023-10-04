@@ -2,6 +2,7 @@
 
 .card-container {
     position: relative;
+    background-image: linear-gradient(90deg, pink, rgb(250, 235, 207));
     padding: 15px;
     margin: 5px;
     margin-top: 10px;
