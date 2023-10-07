@@ -37,8 +37,10 @@ export default function Invite() {
         <div className="garima-image-name">Garima Chudiwale</div>
         <div className="garima-image"><img src='/garima-1.jpeg'/></div>
         </div>
+        <div className="invite-message">Be part of the joy as we begin this beautiful journey together. Save the Date!</div>
         <div className="heading-frame"><img src='/heading-frame-1.png'/></div>
         <Content />
+        <div className="end-message">Created in &#x1F496; by Nitisha</div>
     </div>
   )
 }

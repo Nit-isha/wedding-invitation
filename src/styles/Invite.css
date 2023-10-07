@@ -19,7 +19,18 @@
     font-family: 'Comfortaa', cursive;
     font-family: 'Pacifico', cursive;
     animation: letters 2s 1 ease-in;
-    
+}
+.invite-message {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 230px;
+    text-align: center;
+    color: orange;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
 }
 .invite-frame {
     display: grid;
@@ -50,6 +61,14 @@
     margin-bottom: 20px;
     color: rgb(92, 5, 23);
     animation: letters 2s 1 ease-in;
+}
+.end-message {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-top: 25px;
+    color: rgb(74, 74, 74);
 }
 
 @keyframes letters {
