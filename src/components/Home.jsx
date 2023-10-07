@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import "../styles/Home.css";
-import { IoIosArrowForward } from 'react-icons/Io';
+import { IoIosArrowForward } from 'react-icons/io';
 
 export default function Home() {
     let navigate = useNavigate();
